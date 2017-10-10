@@ -5,6 +5,10 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
+
+
+// this is how it looks like: https://monosnap.com/file/GbI7CKziEtVBpJJ7s3hp3Mze5vwcY9
+
 function addText(targetNode, text){
   var p = document.createElement("p");
   var textnode = document.createTextNode(text);
