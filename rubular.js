@@ -5,10 +5,6 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
-
-
-// this is how it looks like: https://monosnap.com/file/GbI7CKziEtVBpJJ7s3hp3Mze5vwcY9
-
 function addText(targetNode, text){
   var p = document.createElement("p");
   var textnode = document.createTextNode(text);
@@ -21,14 +17,16 @@ function init(){
   var body = document.getElementsByTagName('body')[0];
   var main = document.getElementById('main');
   $(main).setAttribute('position', 'relative');
+  // hide heading
+  $(main.children[0].children[0]).setAttribute('style', "color: #232323" );
+  $(main.children[1]).setAttribute('style', "color: #232323" );
   // A $( document ).ready() block.
-  console.log("hi");
   var node = document.createElement("DIV");
   addText(node, "grey(?=hound) matches grey, but only if it is followed by hound");
   addText(node, "grey(?!hound) matches grey, but only if it is not followed by hound");
   addText(node, "(?<=grey)hound matches hound, but only if it is preceeded by hound");
   addText(node, "(?<!grey)hound matches hound, but only if it is not preceeded by hound");
-  var style = 'position: absolute; width: 35em; height: 10em; top: 0; left: 0; color: white; text-align: left;';
+  var style = 'position: absolute; width: 35em; height: 10em; top: 0; left: 0; color: white; text-align: left; padding: 1em;';
   style = style + 'text-shadow: 3px 3px 3px #232323, -3px -3px 3px #232323, -3px 3px 3px #232323, 3px -3px 3px #232323;';
   $(node).setAttribute('style', style );
 
