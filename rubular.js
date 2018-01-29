@@ -26,7 +26,7 @@ function init(){
   addText(node, "grey(?!hound) matches grey, but only if it is not followed by hound");
   addText(node, "(?<=grey)hound matches hound, but only if it is preceeded by hound");
   addText(node, "(?<!grey)hound matches hound, but only if it is not preceeded by hound");
-  var style = 'position: absolute; width: 35em; height: 10em; top: 0; left: 0; color: white; text-align: left; padding: 1em;';
+  var style = 'position: absolute; width: 35em; height: 6em; top: 0; left: 0; color: white; text-align: left; padding: 1em;';
   style = style + 'text-shadow: 3px 3px 3px #232323, -3px -3px 3px #232323, -3px 3px 3px #232323, 3px -3px 3px #232323;';
   $(node).setAttribute('style', style );
 
