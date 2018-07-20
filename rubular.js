@@ -5,6 +5,8 @@
 // @version     1
 // @grant       none
 // ==/UserScript==
+
+var $;
 function addText(targetNode, text){
   var p = document.createElement("p");
   var textnode = document.createTextNode(text);
@@ -13,7 +15,7 @@ function addText(targetNode, text){
   targetNode.appendChild(p);
 }
 function init(){
-  var $ = window.$;
+  $ = window.$;
   var body = document.getElementsByTagName('body')[0];
   var main = document.getElementById('main');
   $(main).setAttribute('position', 'relative');
