@@ -5,6 +5,7 @@
 // @description  automatically clicks the button that hides the agegate
 // @author       manavortex
 // @match        https://store.steampowered.com/*/agecheck
+// @updateURL   https://openuserjs.org/meta/manavortex/skip_steam_agegate.js
 // @grant        none
 // ==/UserScript==
 
