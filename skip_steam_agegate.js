@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name Hide steam agegate
+// @name HideSteamAgegate
 // @description Click the button that hides the steam agegate
 // @version 1.0
-// @author manavortex
-// @match https://store.steampowered.com/*/agecheck
+// @author manavorex
 // @license MIT
+// @include *
+// @icon https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016
 // @run-at document-end
 // @grant none
-// @icon https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016
 // ==/UserScript==
 
 (function() {
