@@ -4,7 +4,7 @@
 // @version 1.0
 // @author manavorex
 // @license MIT
-// @include *
+// @include https:\/\/store.steampowered.com\/.*agegate
 // @icon https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016
 // @run-at document-end
 // @grant none
