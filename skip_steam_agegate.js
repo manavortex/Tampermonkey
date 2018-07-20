@@ -1,12 +1,12 @@
 // ==UserScript==
 // @namespace	https://openuserjs.org/users/manavortex
-// @name 		SkipSteamAgegate
+// @name        SkipSteamAgegate
 // @description	Clicks the button that skips the steam agegate
-// @copyright	2018, manavortex
-// @license		MIT
-// @version		1.0.0
+// @copyright   2018, manavortex
+// @license     MIT
+// @version     1.0.0
 // @include     https:\/\/store.steampowered.com\/.*agegate
-// @grant none
+// @grant       none
 // ==/UserScript==
 
 // ==OpenUserJS==
