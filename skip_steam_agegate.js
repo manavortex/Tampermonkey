@@ -1,14 +1,17 @@
 // ==UserScript==
-// @name HideSteamAgegate
-// @description Click the button that hides the steam agegate
-// @version 1.0
-// @author manavorex
-// @license MIT
-// @include https:\/\/store.steampowered.com\/.*agegate
-// @icon https://steamstore-a.akamaihd.net/public/shared/images/header/globalheader_logo.png?t=962016
-// @run-at document-end
+// @namespace	https://openuserjs.org/users/manavortex
+// @name 		SkipSteamAgegate
+// @description	Clicks the button that skips the steam agegate
+// @copyright	2018, manavortex
+// @license		MIT
+// @version		1.0.0
+// @include     https:\/\/store.steampowered.com\/.*agegate
 // @grant none
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author manavortex
+// ==/OpenUserJS==
 
 (function() {
     'use strict';
