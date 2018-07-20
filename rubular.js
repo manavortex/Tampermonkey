@@ -4,6 +4,8 @@
 // @include     http://rubular.com/
 // @version     1
 // @grant       none
+// @author      manavortex
+// @updateURL   https://openuserjs.org/meta/manavortex/rubular.meta.js
 // ==/UserScript==
 
 var $;
