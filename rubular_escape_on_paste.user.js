@@ -24,7 +24,7 @@ function addText(targetNode, text) {
     var sheet = window.document.styleSheets[0];
     sheet.insertRule('#main { width:90%; min-width: 60em; }', sheet.cssRules.length);
     sheet.insertRule('#test_string { width:49.5%; }', sheet.cssRules.length);
-    sheet.insertRule('#result { width:50%; margin-left: 52%; }', sheet.cssRules.length);
+    sheet.insertRule('#result { width:48%; margin-left: 52%; }', sheet.cssRules.length);
 
     overwriteRubularFunction();
 
