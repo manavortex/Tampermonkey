@@ -8,8 +8,10 @@
 // @grant        none
 // ==/UserScript==
 
+var link = 'https://www.esoui.com/downloads/editfile.php?id=1617';
+var linktitle = "Update FurC";
 (function() {
     'use strict';
     window.jQuery("nav.navigation ul.menu").prepend('<li><div class="divider"></div></li>');
-    window.jQuery("nav.navigation ul.menu").prepend("<li class='item'><a href='https://www.esoui.com/downloads/editfile.php?id=1617'>Update FurC</a></li>");
+    window.jQuery("nav.navigation ul.menu").prepend("<li class='item'><a href=" + link + ">" + linktitle + "</a></li>");
 })();
