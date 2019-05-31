@@ -11,5 +11,5 @@
 (function() {
     'use strict';
     window.jQuery("nav.navigation ul.menu").prepend('<li><div class="divider"></div></li>');
-    window.jQuery("nav.navigation ul.menu").prepend("<li class='item'><a href='https://www.esoui.com/git.php?p=push&id=166'>Update FurC</a></li>");
+    window.jQuery("nav.navigation ul.menu").prepend("<li class='item'><a href='https://www.esoui.com/downloads/editfile.php?id=1617'>Update FurC</a></li>");
 })();
